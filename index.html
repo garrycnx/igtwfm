@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+	<title>Workforce Team Data Repository</title>
+<style>
+html,body{
+ padding: 10px;
+ margin: 5;
+ font-family: 'Open Sans', sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    margin: 0;
+    text-align: center;
+    padding: 10px 15px 15px 10px;
+    background: #5F6975;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+a1{
+    margin: 0;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background: #5F6975;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+
+.mainMenu>li{
+    display: inline-block;
+    margin-left: -5px;
+}
+li:hover>a{
+    background: #4B545F;
+    cursor: pointer;
+}
+.subMenu{
+    position: absolute;
+    display: none;
+}
+.subMenu li{
+    border-top: 1px solid #575F6A;
+    border-bottom: 1px solid #6B727C;
+    position: relative;
+}
+.mainMenu>li:hover .subMenu{
+    display: block;
+}
+.SuperSubMenu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    -ms-transform: translate(100%,0);
+    -webkit-transform: translate(100%,0);
+    transform:translate(100%,0);
+    display: none;
+}
+.subMenu li:hover>.SuperSubMenu{
+    display: block;
+}
+p {
+position absolute;
+left:250p;
+top:150px;
+}
+
+</style>
+</head>
+<body>
+<body style="background-color:#B2EBF2">
+<nav>
+<h2 style="text-align:center;"> Workforce Team Data Repository</h2>
+    <ul class="mainMenu">
+        <li><a href="#">India</a>
+         <ul class="subMenu">
+            <li><a1 href="#">Accor</a1></li>
+			<li><a1 href="#">Air Trip</a1></li>
+			<li><a1 href="#">BCD Travels</a1></li>
+			<li><a1 href="#">Brussels Airlines</a1></li>
+			<li><a1 href="#">Choice Hotel</a1></li>
+			<li><a1 href="#">Clear Trip</a1>
+			     <ul class="SuperSubMenu">
+                     <li><a href="#">Clear Trip API Voice</a></li>
+					 <li><a href="#">Clear Trip Chat</a></li>
+					 <li><a href="#">Clear Trip Fulfill Tkt</a></li>
+					 <li><a href="#">Clear Trip Voice</a></li>
+					 <li><a href="#">Clear Trip Voice</a></li>
+					 <li><a>Clear Trip Fulfill CNR</a>
+						</li>
+					
+					</ul>	
+				</li>
+						
+			<li><a1 href="#">Expedia</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">Egencia</a></li>
+					 <li><a href="#">AFT</a></li>
+					 <li><a href="#">APAC + Hotel</a></li>
+					 <li><a href="#">EMEA</a></li>
+					 <li><a href="#">LX</a>
+					</li>
+					
+			</ul>
+			</li>
+			
+			<li><a1 href="#">Flynas Fare Filing</a1></li>
+			<li><a1 href="#">GoIBIBO</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">GO IBIBO DOM Voice</a></li>
+					 <li><a href="#">Go Ibibo Int Air Tkt & Error</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+			<li><a1 href="#">MMT</a1></li>
+			<li><a1 href="#">HK Airline</a1></li>
+			<li><a1 href="#">Hotel Beds</a1></li>
+			<li><a1 href="#">Hyatt Hotels</a1></li>
+			<li><a1 href="#">Indigo</a1>
+				<ul class="SuperSubMenu">
+                     <li><a href="#">Voice</a></li>
+					 <li><a href="#">FCU</a></li>
+					 <li><a href="#">CR Emails</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+			<li><a1 href="#">ITQ</a1></li>
+			<li><a1 href="#">Jurys Inn</a1></li>
+			<li><a1 href="#">KLM</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">Customer care claims</a></li>
+					 <li><a href="#">CSD/CRU</a></li>
+					 <li><a href="#">ICI Checkout & Seating</a></li>
+					 <li><a href="#">Air France ROC</a></li>
+					 <li><a href="#">Comflex</a></li>
+					 <li><a href="#">Medeam</a></li>
+					 <li><a href="#">Cignific Customer Claims NL</a></li>
+					 <li><a href="#">Del SSC</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+			<li><a1 href="#">Odigeo</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">Service</a></li>
+					 <li><a href="#">Sales</a></li>
+					 <li><a href="#">BO</a>
+					 </li>
+					
+			</ul>
+			</li>
+			<li><a1 href="#">Oman Air</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">IRROPS</a></li>
+					 <li><a href="#">CS</a></li>
+					 <li><a href="#">FFP</a>
+					 </li>
+		
+			</ul>
+			</li>
+			
+			<li><a1 href="#">Pegasus</a1></li>
+			<li><a1 href="#">Princess Cruises</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">Air Support</a></li>
+					 <li><a href="#">DE</a></li>
+					 <li><a href="#">Crew Helpdesk</a></li>
+					 <li><a href="#">CCL</a></li>
+					 <li><a href="#">HA</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+			<li><a1 href="#">Radisson Hotels</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">Customer Service</a></li>
+					 <li><a href="#">Lanyon Support</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+			<li><a1 href="#">SITA</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">CSD</a></li>
+					 <li><a href="#">L2 Support</a></li>
+					 <li><a href="#">Desktop Support</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+			<li><a1 href="#">Sonesta Hotels</a1></li>
+			<li><a1 href="#">South African Airways</a1></li>
+			<li><a1 href="#">TAP Air</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">Claims Management</a></li>
+					 <li><a href="#">TAPAIR Portugal</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+			<li><a1 href="#">Travel Click</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">BPS</a></li>
+					 <li><a href="#">Media Function</a></li>
+					 <li><a href="#">Contract Support</a></li>
+					 <li><a href="#">Consultant</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+			<li><a1 href="#">TSA</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">Care Centre - L1 Customer Support</a></li>
+					 <li><a href="#">Reimb and Claims BO Sup (RAC)</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+			<li><a1 href="#">United Airlines</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">Baggage Care - BO</a></li>
+					 <li><a href="#">Baggage Care - Voice</a></li>
+					 <li><a href="#">Queues</a>
+					 </li>
+					
+			</ul>
+			</li>
+		
+			<li><a1 href="#">Viking</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">Q M Services/PQMS</a></li>
+					 <li><a href="#">Back Office</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+			<li><a1 href="#">Virgin Atlantic Airways</a1></li>
+			<li><a1 href="#">Webjet</a1>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">Webjet Queues</a></li>
+					 <li><a href="#">Webjet Helpdesk</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+			<li><a1 href="#">Air India</a1>
+			            
+             </li>
+         </ul>
+        </li>
+		<li><a href="#">China</a>
+		         <ul class="subMenu">
+             <li><a href="#">Air Canada</a></li>
+			<li><a href="#">Expedia</a>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">JP</a></li>
+					 <li><a href="#">KR</a></li>
+					 <li><a href="#">AAGo</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+			<li><a href="#">KIWI</a></li>
+			<li><a href="#">OdigeO</a></li>
+			<li><a href="#">Philippines Airlines</a></li>
+			<li><a href="#">Princess Cruises</a></li>
+			<li><a href="#">Radisson Hotels</a>
+			<ul class="SuperSubMenu">
+                     <li><a href="#">Customer Service</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+			<li><a href="#">United Airlines</a>	
+				<ul class="SuperSubMenu">
+                     <li><a href="#">CC fee</a>
+					 </li>
+					
+			</ul>
+			</li>
+			
+             </li>
+         </ul>
+        </li>
+        <li><a href="#">Malaysia</a>
+				 <ul class="subMenu">
+				 <li><a href="#">Air Canada</a></li>
+				 <li><a href="#">American Airlines</a>
+					<ul class="SuperSubMenu">
+                     <li><a href="#">GR</a></li>
+					 <li><a href="#">CR</a></li>
+					 <li><a href="#">SD</a></li>
+					 <li><a href="#">Sales Support Services</a>
+					 
+					 </li>
+					
+				</ul>
+				</li>	
+				 
+	             <li><a href="#">Japan Air</a></li>
+				 <li><a href="#">KLM</a>
+				 <ul class="SuperSubMenu">
+                     <li><a href="#">SMM</a>
+					 
+					 </li>
+					
+				</ul>
+				</li> 
+				 
+				 <li><a href="#">Malaysia Airlines</a></li>
+				 <li><a href="#">Traveloka</a></li>
+				 
+				 </ul>
+				 
+		</li>
+		
+		<li><a href="#">Romania</a>
+				 <ul class="subMenu">
+				 
+				 <li><a href="#">Radisson Hotels</a>
+				 <ul class="SuperSubMenu">
+                     <li><a href="#">Customer Service - Danish</a></li>
+					<li><a href="#">Customer Service - Dutch</a></li>
+					<li><a href="#">Customer Service - French</a></li>
+					<li><a href="#">Customer Service - German</a></li>
+					<li><a href="#">Customer Service - Italian</a></li>
+					<li><a href="#">Customer Service - Norwegian</a></li>
+					<li><a href="#">Customer Service - Russian</a></li>
+					<li><a href="#">Customer Service - Russian</a></li>
+					<li><a href="#">Customer Service - Swedish</a>
+				 
+					 </li>
+					 </ul>
+				<li><a href="#">Swissport</a></li>	
+				
+				</li>
+				</ul>
+				 
+		</li>	 
+				 
+				<li><a href="#">Philippines</a>
+				 <ul class="subMenu">
+					<li><a href="#">Agoda</a></li>
+					<li><a href="#">BCD Travels</a>
+					<ul class="SuperSubMenu">
+                     <li><a href="#">BCD VCT</a></li>
+					 <li><a href="#">Care Online</a></li>
+					 <li><a href="#">TPSM</a>
+			 
+					 </li>
+					 </ul>
+										
+					</li>
+					
+					<li><a href="#">Ensemble Travel</a></li>
+					<li><a href="#">Expedia</a>
+					<ul class="SuperSubMenu">
+					 <li><a href="#">AFT</a>
+				 
+					 </li>
+					 </ul>
+					
+					</li>
+					<li><a href="#">Flair Air</a></li>
+					<li><a href="#">Hoot</a></li>
+					<li><a href="#">KIWI</a>
+					 <ul class="SuperSubMenu">
+					 <li><a href="#">Customer Service</a>
+				 
+					 </li>
+					 </ul>		
+					
+					</li>
+					<li><a href="#">KLM</a>
+					<ul class="SuperSubMenu">
+					 <li><a href="#">Air France</a></li>
+					 <li><a href="#">SM - English</a></li>
+					 <li><a href="#">SM - Korean</a></li>
+					 <li><a href="#">SM - Spanish</a>
+				 
+					 </li>
+					 </ul>		
+										
+					</li>
+					<li><a href="#">Malaysia Airlines</a>
+					<ul class="SuperSubMenu">
+					<li><a href="#">Social Media</a>
+				 
+					 </li>
+					 </ul>
+									
+					</li>
+					<li><a href="#">Radisson Hotels</a>
+					<ul class="SuperSubMenu">
+					<li><a href="#">Customer Service</a>
+					 </li>
+					 </ul>
+					
+					</li>
+					<li><a href="#">Scoot</a>
+					</li>
+					<li><a href="#">Traveloka</a>
+					<ul class="SuperSubMenu">
+					<li><a href="#">Tier 1</a></li>
+					<li><a href="#">Tier 2</a>
+					 </li>
+					 </ul>
+					
+					</li>
+					<li><a href="#">Trip Advisor</a></li>
+					<li><a href="#">United Airlines</a>
+					<ul class="SuperSubMenu">
+						<li><a href="#">Cargo</a></li>
+						<li><a href="#">Chat</a></li>
+						<li><a href="#">Corp Travel</a></li>
+						<li><a href="#">Corp Travel CC Billing</a></li>
+						<li><a href="#">Crewpay</a></li>
+						<li><a href="#">ETC</a></li>
+						<li><a href="#">Fast</a></li>
+						<li><a href="#">Pilot Crewpay</a></li>
+						<li><a href="#">Reservation</a></li>
+						<li><a href="#">SM</a></li>
+						<li><a href="#">Take off Learning</a>
+					
+					</li>
+					 </ul>
+					
+					</li>
+					<li><a href="#">Webjet</a>
+					<ul class="SuperSubMenu">
+					<li><a href="#">Queues</a>
+					 </li>
+					 </ul>
+					
+					</li>
+					<li><a href="#">World Ventures</a></li>
+					<li><a href="#">Xiamen Airlines</a>
+					<ul class="SuperSubMenu">
+						<li><a href="#">Social Media</a></li>
+						<li><a href="#">Xiamen Airlines</a>
+					 </li>
+					 </ul>
+					
+					</li>
+					
+				</ul>
+				</li>		
+
+		<li><a href="#">Columbia</a>
+				 <ul class="subMenu">
+					<li><a href="#">Kiwi</a></li>
+					<li><a href="#">Odigeo</a></li>
+					<li><a href="#">Priceline</a>
+					<ul class="SuperSubMenu">
+						<li><a href="#">CCC</a></li>
+						<li><a href="#">CR</a></li>
+						<li><a href="#">TS1</a></li>
+						<li><a href="#">TS2</a>
+						
+					 </li>
+					 </ul>
+					
+					</li>
+					<li><a href="#">Radisson Hotels</a></li>
+					<li><a href="#">United Airlines</a>
+					</li>
+				</ul>	
+		
+		</li>
+		<li><a href="#">UAE</a>
+				 <ul class="subMenu">
+					<li><a href="#">KLM</a>
+					<ul class="SuperSubMenu">
+						<li><a href="#">SM German</a></li>
+						<li><a href="#">SM Portuguese</a></li>
+						<li><a href="#">SM Italian</a></li>
+						<li><a href="#">SM French</a>
+						
+					 </li>
+					 </ul>
+				</ul>	
+		
+		</li>
+				
+		<li><a href="#">Spain</a>
+			 <ul class="subMenu">
+					<li><a href="#">OdigeO</a>
+			</ul>
+		
+		</li>
+		
+		
+    </ul>
+</nav>
+<p>If there is any discrepency please <br> write an email to Following<br><br>To :- Gurpreet.singh@igtsolutions.com<br> CC:- Shaji.Cherian@igtsolutions.com <b>;</b> Altaf.Khan@igtsolutions.com <br>Last Updated on 8th Apr'2020 14:08 IST</p>
+ </body>
+</html>
