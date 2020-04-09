@@ -66,6 +66,19 @@ li:hover>a{
 .subMenu li:hover>.SuperSubMenu{
     display: block;
 }
+.SupersuperSubMenu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    -ms-transform: translate(100%,0);
+    -webkit-transform: translate(100%,0);
+    transform:translate(100%,0);
+    display: none;
+}
+.SuperSubMenu li:hover>.SupersuperSubMenu{
+    display: block;
+}
+
 p {
 position absolute;
 left:250p;
@@ -362,19 +375,42 @@ top:150px;
 				 
 				<li><a href="#">Philippines</a>
 				 <ul class="subMenu">
-					<li><a href="#">Agoda</a></li>
+					<li><a href="#">Agoda</a>
+					<ul class="SuperSubMenu">
+                     <li><a href="#">Voice-Inbound</a></li>
+					 <li><a href="#">Outbound</a></li>
+					 <li><a href="#">Email</a>
+			 
+					 </li>
+					 </ul>
+					
+					
+					
+					
+					</li>
 					<li><a href="#">BCD Travels</a>
 					<ul class="SuperSubMenu">
-                     <li><a href="#">BCD VCT</a></li>
-					 <li><a href="#">Care Online</a></li>
-					 <li><a href="#">TPSM</a>
+                     <li><a href="#">BCD VCT (Outbound)</a></li>
+					 <li><a href="#">Care Online (Inbound)</a></li>
+					 <li><a href="#">TPSM-Back office</a>
 			 
 					 </li>
 					 </ul>
 										
 					</li>
 					
-					<li><a href="#">Ensemble Travel</a></li>
+					<li><a href="#">Ensemble Travel</a>
+					<ul class="SuperSubMenu">
+                     <li><a href="#">Email</a>
+			 
+					 </li>
+					 </ul>
+					
+					
+					
+					</li>
+					
+					
 					<li><a href="#">Expedia</a>
 					<ul class="SuperSubMenu">
 					 <li><a href="#">AFT</a>
@@ -383,12 +419,39 @@ top:150px;
 					 </ul>
 					
 					</li>
-					<li><a href="#">Flair Air</a></li>
+					<li><a href="#">Flair Air</a>
+							<ul class="SuperSubMenu">
+							<li><a href="#">Inbound</a></li>
+							<li><a href="#">Outbound</a>
+			 
+					 </li>
+					 </ul>
+			
+					
+					
+					</li>
 					<li><a href="#">Hoot</a></li>
 					<li><a href="#">KIWI</a>
 					 <ul class="SuperSubMenu">
-					 <li><a href="#">Customer Service</a>
-				 
+					 <li><a href="#">Front Office</a>
+					 <ul class="SupersuperSubMenu">
+					 <li><a href="#">Inbound</a></li>
+					 <li><a href="#">Outbound</a></li>
+					 <li><a href="#">Email</a>
+					 		 
+					 </li>
+					 </ul>
+					 </li>
+					<li><a href="#">Guarantee</a>
+					 <ul class="SupersuperSubMenu">
+					 <li><a href="#">Inbound</a></li>
+					 <li><a href="#">Outbound</a></li>
+					 <li><a href="#">Chat</a>
+					 		 
+					 </li>
+					 </ul>
+					 </li>
+
 					 </li>
 					 </ul>		
 					
@@ -415,16 +478,62 @@ top:150px;
 					<li><a href="#">Radisson Hotels</a>
 					<ul class="SuperSubMenu">
 					<li><a href="#">Customer Service</a>
+					<ul class="SupersuperSubMenu">
+					<li><a href="#">Inbound</a></li>
+					<li><a href="#">Email</a>
+					 
 					 </li>
+					 
+					 </ul>
+					 </li>
+					 
+					 <li><a href="#">Reservation</a>
+					<ul class="SupersuperSubMenu">
+					<li><a href="#">Inbound</a>
+					 
+					 </ul>
+					 				 
+					 </li>
+					
+					<li><a href="#">Social Media</a></li>		
+					</ul>
+					</li>
+					 			
+					<li><a href="#">Scoot</a>
+					<ul class="SupersuperSubMenu">
+					<li><a href="#">Inbound</a></li>
+					<li><a href="#">Outbound</a></li>
+					<li><a href="#">Email</a>
+					</li>
+					 
+					</ul>
+					
+					</li>	
+
+
+					
+					<li><a href="#">Traveloka</a>
+					<ul class="SuperSubMenu">
+					<li><a href="#">Customer Service</a>
+					<ul class="SupersuperSubMenu">
+					<li><a href="#">Email</a></li>
+					<li><a href="#">Chat</a></li>
+					<li><a href="#">Message Center</a></li>
+					<li><a href="#">Social Media</a>
+					 
+					 </li>
+					 
 					 </ul>
 					
 					</li>
-					<li><a href="#">Scoot</a>
-					</li>
-					<li><a href="#">Traveloka</a>
-					<ul class="SuperSubMenu">
-					<li><a href="#">Tier 1</a></li>
-					<li><a href="#">Tier 2</a>
+					<li><a href="#">Ticketing</a>
+					<ul class="SupersuperSubMenu">
+					<li><a href="#">Back Office</a>
+					 
+					 </li>
+					 
+					 </ul>
+					
 					 </li>
 					 </ul>
 					
@@ -450,21 +559,62 @@ top:150px;
 					</li>
 					<li><a href="#">Webjet</a>
 					<ul class="SuperSubMenu">
-					<li><a href="#">Queues</a>
+					<li><a href="#">Queues</a></li>
+					<li><a href="#">Enquiries</a></li>
+					<li><a href="#">Email</a>
 					 </li>
 					 </ul>
 					
 					</li>
-					<li><a href="#">World Ventures</a></li>
+					<li><a href="#">World Ventures</a>
+					<ul class="SuperSubMenu">
+					<li><a href="#">Air Ticketing</a>
+					<ul class="SupersuperSubMenu">
+					<li><a href="#">Inbound</a></li>
+					<li><a href="#">Outbound</a></li>
+					<li><a href="#">Chat</a></li>
+					<li><a href="#">Email</a>
+					 
+					 </li>
+					 
+					 </ul>
+					
+					</li>
+					<li><a href="#">Travel Support</a>
+					<ul class="SupersuperSubMenu">
+					<li><a href="#">Inbound</a></li>
+					<li><a href="#">Outbound</a></li>
+					<li><a href="#">Chat</a></li>
+					<li><a href="#">Email</a>
+					 
+					 </li>
+					 
+					 </ul>
+					</li>
+					<li><a href="#">Travel Sales</a>
+					<ul class="SupersuperSubMenu">
+					<li><a href="#">Inbound</a></li>
+					<li><a href="#">Outbound</a></li>
+					<li><a href="#">Chat</a></li>
+					<li><a href="#">Email</a>
+					 
+					 </li>
+					 
+					 </ul>
+					
+					 </li>
+					 </ul>
+					
+					</li>
 					<li><a href="#">Xiamen Airlines</a>
 					<ul class="SuperSubMenu">
 						<li><a href="#">Social Media</a></li>
-						<li><a href="#">Xiamen Airlines</a>
+						<li><a href="#">Inbound</a>
 					 </li>
 					 </ul>
 					
 					</li>
-					
+						
 				</ul>
 				</li>		
 
@@ -514,6 +664,6 @@ top:150px;
 		
     </ul>
 </nav>
-<p>If there is any discrepency please <br> write an email to Following<br><br>To :- Gurpreet.singh@igtsolutions.com<br> CC:- Shaji.Cherian@igtsolutions.com <b>;</b> Altaf.Khan@igtsolutions.com <br>Last Updated on 8th Apr'2020 23:13 IST</p>
+<p>If there is any discrepency please <br> write an email to Following<br><br>To :- Gurpreet.singh@igtsolutions.com<br> CC:- Shaji.Cherian@igtsolutions.com <b>;</b> Altaf.Khan@igtsolutions.com <br>Last Updated on 9th Apr'2020 20:56 IST</p>
  </body>
 </html>
